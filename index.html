@@ -29,6 +29,36 @@
         <li><a href="/pages/favorite.html">Favorite</a></li>
         <li><a href="/pages/about.html">About</a></li>
     </ul>
+
+    <!-- Modal Structure -->
+    <div id="add_contact_modal" class="modal add-contact">
+        <div class="modal-content">
+            <h4>New Contact</h4>
+            <form action="">
+                <input type="text" name="name" placeholder="person name">
+                <input type="number" name="phone" placeholder="phone number">
+                <button class="btn">Add</button>
+                <p class="error"></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+    <!-- Modal Structure -->
+    <div id="edit_contact_modal" class="modal edit-contact">
+        <div class="modal-content">
+            <h4>Edit Contact</h4>
+            <form action="">
+                <input type="text" name="name" placeholder="person name">
+                <input type="number" name="phone" placeholder="phone number">
+                <button class="btn">Update</button>
+                <p class="error"></p>
+            </form>
+        </div>
+    </div>
 </body>
 <script src="/js/ui.js"></script>
+
 </html>
